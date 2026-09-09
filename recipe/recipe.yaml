@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.12.1"
+  version: "0.13.0"
 
 package:
   name: nxsblisswriter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsblisswriter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 37f02f45808d5ff0d0cff54a29dd44ac0f234258256b9a3238581276ff959fe9
+  sha256: 498ebf20dd7728a4e26aa1b12a7c371dcf33e4726b50267238d87b733bb03ff2
 
 build:
   noarch: python
@@ -49,7 +49,7 @@ tests:
 
 
 about:
-  homepage: https://nexdatas.github.io/nxsblisswriter 
+  homepage: https://nexdatas.github.io/nxsblisswriter
   repository: https://github.com/nexdatas/nxsblisswriter
   license: GPL-3.0-or-later
   license_file: COPYRIGHT
