@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.15.0"
+  version: "0.16.0"
 
 package:
   name: nxsblisswriter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsblisswriter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 1caca3dd8cc11ac9a1a345e9dda4297a0955f040fad285702ead41f3565cc7d6
+  sha256: 1b6c95a0df8498533a85bc38b1e49393e77c56be1b4dbf429e342a06675a7890
 
 build:
   noarch: python
